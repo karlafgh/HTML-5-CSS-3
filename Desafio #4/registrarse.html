@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registrarse</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel:700|Zilla+Slab:600&display=swap" rel="stylesheet">
+</head>
+<body  background="img/fondo.jpg">
+	<div id="pR">
+		<form name="frm-registrarse" id="formR">
+			<h1>Crear cuenta</h1>
+			<label for="Nombre" class="label_2">Nombre</label>
+			<input type="text" name="Nombre" id="name" maxlength="15" placeholder="su nombre">
+			</br>
+			</br>
+			<label for="Apellido" class="label_2">Apellido:</label>
+			<input type="text" name="Apellido" id="lastName" maxlength="15" placeholder="su apellido">
+			</br>
+			</br>
+			<label for="cedula" class="label_2">C.I:</label>
+			<input type="text" name="cedula" id="cedula" maxlength="8" placeholder="su cedula de identidad">
+			</br>
+			</br>
+			<label for="Correo">Correo Electrónico:</label>
+			<input type="text" name="Correo" id="correo" placeholder="alguien@example.com">
+			<p id="reminder">Recuerde que la contraseña debe estar entre 6 y 12 carácteres</p>
+			<label for="Contraseña">Contraseña:</label>
+			<input type="password" name="Contraseña" id="passW" maxlength="12" placeholder="cree una contraseña">
+			<label for="Contraseña">Confirmación de contraseña:</label>
+			<input type="password" name="Contraseña" id="passW" maxlength="12" placeholder="confirme su contraseña">
+			</br>
+			</br>
+			<label for="sexo">Sexo:</label>
+			<label>Masculino</label>
+			<input type="radio" name="sexo" value="masculino">
+			<label>Femenino</label>
+			<input type="radio" name="sexo" value="femenino">
+			</br>
+			</br>
+			<label>Nivel de educación:</label>
+			<select>
+				<option hidden>--seleccione una opción--</option>
+				<option>Primaria</option>
+				<option>Secudaria</option>
+				<option>Universitario</option>
+				<option>Maestría</option>
+				<option>Doctorado</option>
+			</select>
+			</br>
+			</br>
+			<input type="reset" name="Resetear" value="Limpiar">
+			<input type="submit" name="Enviar" value="Enviar">
+		</form>
+	</div>
+	<footer id="new">
+		<p>Todos los derechos reservados &copy; Karla Gómez, 2019.</p>
+	</footer>
+</body>
+</html>

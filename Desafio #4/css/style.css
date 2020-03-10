@@ -1,0 +1,80 @@
+#pI{
+	margin-top: 220px;
+	height: 175px;
+	width: 1365px;
+	background: #D5F5F0;
+	font-family: 'Zilla Slab', serif;
+	left: 0;
+}
+#pR{
+	margin-left: 300px;
+	margin-top: 90px;
+	height: 420px;
+	width: 770px;
+	background: #D5F5F0;
+	font-family: 'Zilla Slab', serif;
+}
+h1{
+	text-align: center;
+	font-family: 'Cinzel', serif;
+}
+p{
+	font-style: italic;
+}
+#reminder{
+	color:  #BC6DED;
+	text-align: center;
+	font-style: italic;
+}
+label{
+	margin-left: 10px;
+	font-weight: bold;
+}
+#cedula{
+	margin-left: 82px;
+}
+#name{
+	margin-left: 48px;
+}
+#lastName{
+	margin-left: 44px;
+}
+#formI{
+	text-align: center;
+}
+.label_2{
+	margin-left: 50px;
+}
+a{
+	color: #BC6DED;
+}
+input{
+	margin-left: 10px;
+}
+select{
+	margin-left: 10px;
+}
+footer{
+	font-family: 'Zilla Slab', serif;
+	margin-top: 160px;
+	height: 50px;
+	background: white;
+	opacity: 0.40;
+	width:100%; 
+    position:absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+}
+#new{
+	text-align: center;
+	font-family: 'Zilla Slab', serif;
+	margin-top: 50px;
+	height: 50px;
+	background: white;
+	opacity: 0.40;
+	width:100%; 
+    position:absolute;
+    left: 0;
+    bottom: 0;
+}

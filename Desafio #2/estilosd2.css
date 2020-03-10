@@ -1,0 +1,47 @@
+body{
+	background: #FFE4E1;
+}
+h1{
+	font-style: italic;
+}
+#ajax-sub{
+	color: #BC8F8F
+}
+div{
+	width: 1348px;
+	height: 250px;
+	background: #FDF5E6;
+}
+.sub2{
+	width: 1348px;
+	height: 380px;
+	background: #FFDEAD;
+}
+.sub3{
+	width: 1348px;
+	height: 290px;
+	background: #D8BFD8;
+}
+.sub4{
+	width: 1348px;
+	height: 120px;
+	background: #E0FFFF;
+}
+.lastsub{
+	width: 1348px;
+	height: 120px;
+	background: #DCDCDC;
+}
+span{
+	background: #F8A6FA;
+}
+p{
+	color: #4169E1;
+}
+#parrafo-im{
+	color: #696969;
+}
+#letras-amarillas{
+	color: #DAA520;
+}
+

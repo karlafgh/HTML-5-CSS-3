@@ -1,0 +1,12 @@
+body{
+	background: tomato;
+}
+
+header{
+	background: #D189D3;
+	height: 500px;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	color: white;
+}
